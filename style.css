@@ -1,0 +1,81 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f7f6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.news-widget {
+    background: #ffffff;
+    width: 380px;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+    overflow: hidden;
+    border: 1px solid #e1e8ed;
+}
+
+.widget-header {
+    background: #1da1f2;
+    color: white;
+    padding: 16px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.widget-header h2 {
+    font-size: 1.1rem;
+    margin: 0;
+}
+
+.live-indicator {
+    font-size: 0.8rem;
+    font-weight: bold;
+    color: #2ecc71;
+    background: white;
+    padding: 2px 8px;
+    border-radius: 10px;
+}
+
+.headline-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    max-height: 320px;
+    overflow-y: auto;
+}
+
+.headline-list li {
+    padding: 14px 20px;
+    border-bottom: 1px solid #f1f3f5;
+    font-size: 0.95rem;
+    color: #333;
+    transition: background 0.2s ease;
+}
+
+.headline-list li:last-child {
+    border-bottom: none;
+}
+
+.headline-list li:hover {
+    background-color: #f8f9fa;
+    cursor: pointer;
+}
+
+.loading {
+    text-align: center;
+    color: #888;
+    font-style: italic;
+}
+
+.widget-footer {
+    padding: 10px 20px;
+    background: #fafbfc;
+    border-top: 1px solid #e1e8ed;
+    text-align: right;
+    font-size: 0.75rem;
+    color: #8c9ba5;
+}

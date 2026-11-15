@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Live News Headline Widget</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Widget Container -->
+    <div class="news-widget">
+        <div class="widget-header">
+            <h2>🔥 Top News Headlines</h2>
+            <span class="live-indicator">● Live</span>
+        </div>
+        
+        <!-- List where top 5 headlines will be injected -->
+        <ul id="headline-list" class="headline-list">
+            <li class="loading">Loading latest headlines...</li>
+        </ul>
+
+        <div class="widget-footer">
+            <small id="last-updated">Updating every hour</small>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
